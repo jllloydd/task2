@@ -1,0 +1,17 @@
+.realbutton{
+    background-color: #1B424C; 
+    font-size: 15px; 
+    border-radius:40px; 
+    padding:10px 20px; 
+    border:none; 
+    color:white;
+}
+
+a.nav-link{
+    font-size: 1.3rem;
+}
+
+a.navbar-brand{
+    font-size:1.7rem;
+    font-weight:bold;
+}
