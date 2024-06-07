@@ -53,6 +53,12 @@ a.navbar-brand{
     color:#1B424C;
 }
 
+.semibigtext{
+    font-weight:bold;
+    font-size:2.4rem;
+    color:#1B424C;
+}
+
 .image-right{
     width:36rem;
     height:24rem;
@@ -65,4 +71,8 @@ a.navbar-brand{
 
 .headert2{
     color:#51CC74;
+}
+
+.blueishting{
+    background-color:#edf4f3;
 }
