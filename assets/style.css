@@ -7,6 +7,15 @@
     color:white;
 }
 
+.realbutton2{
+    background-color: #1B424C; 
+    font-size: 16px; 
+    border-radius:40px; 
+    padding:10px 35px; 
+    border:none; 
+    color:white;
+}
+
 .getstarted{
     background-color:#ffffff;
     font-size:13px;
@@ -75,4 +84,9 @@ a.navbar-brand{
 
 .blueishting{
     background-color:#edf4f3;
+}
+
+.footerbg{
+    background-image: url('https://w0.peakpx.com/wallpaper/991/1011/HD-wallpaper-3d-black-texture-geometric-black-texture-black-abstraction-background-3d-abstraction-black-texture-creative-black-background.jpg');
+    height:70vh;
 }
