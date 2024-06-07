@@ -42,20 +42,21 @@ a.navbar-brand{
 }
   
 .initialtext{
-    font-size:0.9rem;
+    font-size:1rem;
     font-weight:500;
     color:rgb(87, 85, 85)
 }
 
 .bigtext{
     font-weight:bold;
-    font-size:3.5rem;
+    font-size:3.8rem;
     color:#1B424C;
 }
 
 .image-right{
-    width:32rem;
-    height:22rem;
+    width:36rem;
+    height:24rem;
+    margin-top:2rem;
 }
 
 .headert1{
