@@ -18,13 +18,15 @@
 
 <body class="raleway">  
 
-        <header>
+<!-- Header -->
+
+        <header class="sticky-lg-top">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
     
                 <div class="container-fluid">
                     
-                  <a class="navbar-brand px-3 mx-5" href="#"><span class="headert1">Loan</span><span class="headert2">Mother</span></a>
+                  <a class="navbar-brand px-lg-3 mx-lg-5" href="#"><span class="headert1">Loan</span><span class="headert2">Mother</span></a>
     
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -32,17 +34,17 @@
     
                   <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
     
-                    <div class="navbar-nav mx-auto">
-                        
-                      <a class="nav-link mx-3" href="#">Home</a>
-                      <a class="nav-link mx-3" href="#">Services</a>
-                      <a class="nav-link mx-3" href="#">How we work?</a>
-                      <a class="nav-link mx-3" href="#">About Us</a>
+                    <div class="navbar-nav mx-auto fw-semibold">
+
+                      <a class="nav-link mx-3" href="#hero">Home</a>
+                      <a class="nav-link mx-3" href="#services">Services</a>
+                      <a class="nav-link mx-3" href="#howWork">How we work?</a>
+                      <a class="nav-link mx-3" href="#aboutUs">About Us</a>
                       <a class="nav-link mx-3 d-lg-none d-sm-flex" href="#">Contact us</a>
     
                     </div>
     
-                    <button class="realbutton ms-auto d-none d-lg-flex mx-5">
+                    <button class="realbutton ms-auto d-none d-lg-flex mx-5 fw-semibold">
                         Contact us
                       </button>
     
@@ -54,16 +56,18 @@
     
         </header>
 
-    <section class="section1 w-100 h-100">
+<!-- Hero -->
+
+    <section id="hero" class="section1 w-100 h-100">
         
         <div class="container-fluid d-flex flex-lg-row my-3 py-5">
 
-            <div class="col-lg-6 mt-5 pt-4 px-5 mx-1">
+            <div class="col-lg-6 mt-5 pt-4 px-5 mx-1 col-sm-12">
 
                 <h1 class="bigtext mt-4 px-2">
                     Quick and Easy Loans for Your Financial Needs.
                 </h1>
-                <p class="initialtext mx-2">
+                <p class="initialtext mx-2 fw-semibold">
                     Our loan services offer a hassle-free and streamlined borrowing experience, providing you with the funds you need in a timely manner to meet your financial requirements.
                 </p>
                 <button class="getstarted mx-1">
@@ -72,58 +76,130 @@
 
             </div>
 
-            <div class="col-lg-6 mt-4">
+            <div class="col-lg-6 mt-4 d-none d-lg-flex">
 
-                <img src="assets/img/hero-image.png" class="align-self-center my-4" width="90%" height="95%" alt="hero image">
+                <img src="assets/img/hero-image.png" class="align-self-center my-4 img-fluid" width="90%" height="95%" alt="hero image">
 
             </div>
 
         </div>
-        
+
     </section>
 
 <!-- Our Services -->
-<section class="section2 blueishting w-100 h-100 ">
+<section id="services" class="section2 blueishting w-100 h-100 ">
     <div class="container text-center p-5">
     <h1 class="titles fw-bold">Our Services</h1>
     </div>
-    <div class="container mx-auto">
-        <div class="row align-items-center">
-          <div class="div2 col text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
-            <img class="img-fluid" src="assets/img/icon1.svg" alt="Holding bag of cash">
-              <h3 class="semititles">Personal loan</h3>
-              <p class="fw-semibold text-secondary">Personal loans provide <br>
-                borrowers with flexibility in how<br> 
-                use the funds.
-              </p>
-              <button type="button" class="btn rounded-5 border-2 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
-            </div>
+    <div class="container-fluid mx-auto">
+
+        <div class="row align-items-center d-none d-lg-flex">
+
             <div class="div2 col text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
-              <img class="img-fluid" src="assets/img/icon2.svg" alt="Holding bag of cash">
-            <h3 class="semititles">Business loan</h3>
-            <p class="fw-semibold text-secondary">Business Loan Services provide <br>
+
+                <img class="img-fluid" src="assets/img/icon1.svg" alt="Holding bag of cash">
+                <h3 class="semititles">Personal loan</h3>
+                <p class="fw-semibold text-secondary">Personal loans provide <br>
+                    borrowers with flexibility in how<br> 
+                    use the funds.
+                </p>
+                <button type="button" class="btn rounded-5 border-2 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
+
+            </div>
+
+            <div class="div2 col text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
+
+                <img class="img-fluid" src="assets/img/icon2.svg" alt="Holding bag of cash">
+                <h3 class="semititles">Business loan</h3>
+                <p class="fw-semibold text-secondary">Business Loan Services provide <br>
                 financial assistance to businesses <br> 
                 for various purposes..
-            </p>
-            <button type="button" class="btn rounded-5 border-2 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
-          </div>
-          <div class="div2 col text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
-          <img class="img-fluid" src="assets/img/icon3.svg" alt="Car with dollar coin">
-            <h3 class="semititles">
+                </p>
+                <button type="button" class="btn rounded-5 border-2 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
+
+            </div>
+
+            <div class="div2 col text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
+                <img class="img-fluid" src="assets/img/icon3.svg" alt="Car with dollar coin">
+                <h3 class="semititles">
                 Auto loan
-            </h3>
-            <p class="fw-semibold text-secondary">
-                Auto Loan Services provide <br>
-                financing options for individuals <br>
-                businesses to purchase a vehicle.
-            </p>
+                </h3>
+                <p class="fw-semibold text-secondary">
+                    Auto Loan Services provide <br>
+                    financing options for individuals <br>
+                    businesses to purchase a vehicle.
+                </p>
             <button type="button" class="btn rounded-5 border-2 border-opacity-50 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
-          </div>
-        </div>
+
+            </div>
 
         <div class="text-center my-3 pb-4">
-            <button type="button" class="viewmore">View more</button>
+            <button type="button" class="viewmore fw-semibold">View more</button>
         </div>
+
+        </div>
+
+        <!-- Mobile View -->
+
+        <div class="row d-lg-none d-sm-flex">
+
+            <div class="container-fluid my-3">
+
+                <div class="div2 col-sm-7 d-sm-block m-sm-auto text-center border rounded-5 p-sm-3 m-sm-3 border-3" style="border-color: #0b7285;">
+
+                    <img class="img-fluid" src="assets/img/icon1.svg" alt="Holding bag of cash">
+                    <h3 class="semititles">Personal loan</h3>
+                    <p class="fw-semibold text-secondary">Personal loans provide <br>
+                        borrowers with flexibility in how<br> 
+                        use the funds.
+                    </p>
+                    <button type="button" class="btn rounded-5 border-2 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
+    
+                </div>
+
+            </div>
+
+            <div class="container-fluid my-3">
+
+                <div class="div2 col-sm-7 d-sm-block m-sm-auto text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
+
+                    <img class="img-fluid" src="assets/img/icon2.svg" alt="Holding bag of cash">
+                    <h3 class="semititles">Business loan</h3>
+                    <p class="fw-semibold text-secondary">Business Loan Services provide <br>
+                    financial assistance to businesses <br> 
+                    for various purposes..
+                    </p>
+                    <button type="button" class="btn rounded-5 border-2 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
+    
+                </div>
+
+            </div>
+
+            <div class="container-fluid my-3">
+
+                <div class="div2 col-sm-7 d-sm-block m-sm-auto text-center border rounded-5 p-3 m-3 border-3" style="border-color: #0b7285;">
+                    <img class="img-fluid" src="assets/img/icon3.svg" alt="Car with dollar coin">
+                    <h3 class="semititles">
+                    Auto loan
+                    </h3>
+                    <p class="fw-semibold text-secondary">
+                        Auto Loan Services provide <br>
+                        financing options for individuals <br>
+                        businesses to purchase a vehicle.
+                    </p>
+                <button type="button" class="btn rounded-5 border-2 border-opacity-50 blueishting fw-bold" style="border-color: #9bbdc5; color:#1B424C;">Apply now</button>
+    
+                </div>
+
+            </div>
+
+            <div class="text-center my-3 pb-4">
+                <button type="button" class="viewmore fw-semibold">View more</button>
+            </div>
+
+        </div>
+
+        <!-- End of Mobile View -->
 
     </div>
 
@@ -132,8 +208,8 @@
   </section>
   
   
-  <!-- About us -->
-  <section class="container-fluid h-100 w-100">
+  <!-- How it works -->
+  <section id="howWork" class="container-fluid h-100 w-100">
     <div class="container-fluid text-center">
         <h1 class="titles pt-4 fw-bold">How it works?</h1>
         <p class="fw-semibold text-secondary">This is a process, how you can get a loan for your self.</p>
@@ -148,7 +224,7 @@
                 
                 <div class="d-block mx-auto">
 
-                    <img class="img-fluid ms-5 ps-5" src="assets/img/application.png" alt="Signing up on phone">
+                    <img class="img-fluid ms-5 ps-5 d-none d-lg-flex" src="assets/img/application.png" alt="Signing up on phone">
 
                 </div>
 
@@ -201,7 +277,7 @@
 
                 <div class="d-block mx-auto">
 
-                    <img src="assets/img/verification.png" class="img-fluid pe-5 me-5" alt="documents">
+                    <img src="assets/img/verification.png" class="img-fluid pe-5 me-5 d-none d-lg-flex" alt="documents">
 
                 </div>
 
@@ -215,7 +291,7 @@
                 
                 <div class="d-block mx-auto">
 
-                    <img class="img-fluid ms-5 ps-5" src="assets/img/card.png" alt="wallet and card">
+                    <img class="img-fluid ms-5 ps-5 d-none d-lg-flex" src="assets/img/card.png" alt="wallet and card">
 
                 </div>
 
@@ -270,7 +346,7 @@
 
                 <div class="d-block mx-auto">
 
-                    <img class="img-fluid me-5 pe-5" src="assets/img/approval.png" alt="stamping documents">
+                    <img class="img-fluid me-5 pe-5 d-none d-lg-flex" src="assets/img/approval.png" alt="stamping documents">
 
                 </div>
 
@@ -284,13 +360,13 @@
 </section>
 
     <!-- About us -->
-    <section class="section4 w-100 h-100">
+    <section id="aboutUs" class="section4 w-100 h-100">
 
         <div class="container-fluid blueishting">
 
             <div class="row mx-4 px-2 py-4 mb-0 pb-0">
 
-                <div class="col-lg-6 p-5">
+                <div class="col-lg-6 col-sm-12 p-5">
     
                     <h1 class="semibigtext">About us</h1>
 
@@ -304,34 +380,34 @@
 
                 </div>
 
-                <div class="col-lg-6 p-5 d-flex align-items-center">
+                <div class="col-lg-6 col-sm-12 p-5 d-flex align-items-center">
     
-                    <div class="container-fluid m-4 p-4 bg-white rounded-4">
+                    <div class="container-fluid m-lg-4 p-lg-4 bg-white rounded-4">
 
                         <div class="inputarea py-2 mx-4">
 
-                            <label for="formControlInput" class="form-label">Your Name</label>
+                            <label for="formControlInput" class="form-label fw-semibold">Your Name</label>
                             <input type="text" class="form-control rounded-4 border-black" id="formControlInput">
 
                         </div>
 
                         <div class="inputarea py-2 mx-4">
 
-                            <label for="formControlInput" class="form-label">Phone Number</label>
+                            <label for="formControlInput" class="form-label fw-semibold">Phone Number</label>
                             <input type="number" class="form-control rounded-4 border-black" id="formControlInput">
 
                         </div>
 
                         <div class="inputarea py-2 mx-4">
 
-                            <label for="formControlInput" class="form-label">Email Address</label>
+                            <label for="formControlInput" class="form-label fw-semibold">Email Address</label>
                             <input type="email" class="form-control rounded-4 border-black" id="formControlInput">
 
                         </div>
 
                         <div class="py-3 mx-4 text-center">
 
-                            <button class="realbutton2">
+                            <button class="realbutton2 fw-semibold">
                                 SEND
                             </button>
 
@@ -347,6 +423,7 @@
 
     </section> 
 
+<!-- Footer -->
 
     <footer class="h-70 raleway">
 
@@ -354,13 +431,13 @@
 
             <div class="row">
 
-                <div class="col-lg-5 pt-5 mt-5 ms-5">
+                <div class="col-lg-5 pt-lg-5 mt-lg-5 ms-lg-5">
 
                     <div class="container-fluid pt-5 ps-5">
 
                         <h3>
 
-                            <span class="headert1 text-white">Loan</span><span class="headert2">Mother</span>
+                            <span class="headert1 text-white fw-bold">Loan</span><span class="headert2 fw-bold">Mother</span>
 
                         </h3>
 
@@ -382,11 +459,11 @@
 
                 </div>
 
-                <div class="col-lg-3 pt-5 mt-5">
+                <div class="col-lg-3 col-sm 1 pt-5 mt-5">
 
                     <div class="container-fluid p-5">
 
-                        <h4 class="text-white underline-small">OUR SERVICES</h4>
+                        <h4 class="text-white underline-small fw-semibold">OUR SERVICES</h4>
 
                         <div class="mt-2 text-white">
 
@@ -405,11 +482,11 @@
 
                 </div>
 
-                <div class="col-lg-3 pt-5 mt-5">
+                <div class="col-lg-3 col-sm-1 pt-5 mt-5">
 
                     <div class="container-fluid p-5">
 
-                        <h4 class="text-white underline-small">CONTACT US</h4>
+                        <h4 class="text-white underline-small fw-semibold">CONTACT US</h4>
 
                         <div class="mt-2 text-white">
 

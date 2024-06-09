@@ -98,15 +98,15 @@ a.navbar-brand{
 
 .footerbg{
     background-image: url('https://w0.peakpx.com/wallpaper/991/1011/HD-wallpaper-3d-black-texture-geometric-black-texture-black-abstraction-background-3d-abstraction-black-texture-creative-black-background.jpg');
-    height:70vh;
+    height:65vh;
     background-size: cover;
+    height:100%;
 }
 
 .underline-small{
     color:white;
     display:inline-block;
     position:relative;
-    
 }
 
 .underline-small::after{
