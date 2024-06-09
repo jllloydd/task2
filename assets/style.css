@@ -53,7 +53,8 @@ a.navbar-brand{
 .initialtext{
     font-size:1rem;
     font-weight:500;
-    color:rgb(87, 85, 85)
+    color:rgb(87, 85, 85);
+    letter-spacing: 0.5px;
 }
 
 .bigtext{
@@ -89,4 +90,26 @@ a.navbar-brand{
 .footerbg{
     background-image: url('https://w0.peakpx.com/wallpaper/991/1011/HD-wallpaper-3d-black-texture-geometric-black-texture-black-abstraction-background-3d-abstraction-black-texture-creative-black-background.jpg');
     height:70vh;
+    background-size: cover;
+}
+
+.underline-small{
+    color:white;
+    display:inline-block;
+    position:relative;
+    
+}
+
+.underline-small::after{
+    content:'';
+    height:2px;
+    width:50%;
+    background:#ffffff;
+    position:absolute;
+    left:0%;
+    bottom:-5px;
+}
+
+.no-bullets{
+    list-style-type:none;
 }
