@@ -122,3 +122,19 @@ a.navbar-brand{
 .no-bullets{
     list-style-type:none;
 }
+
+.top-right {
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    font-size:70px;
+    font-weight:bold;
+    opacity:0.25;
+    color:gray;
+    z-index:-1;
+}
+
+.headingntext{
+    position:relative;
+    z-index:1;
+}
