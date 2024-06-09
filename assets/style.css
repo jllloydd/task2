@@ -16,6 +16,15 @@
     color:white;
 }
 
+.viewmore{
+    background-color: #1B424C; 
+    font-size: 16px; 
+    border-radius:40px; 
+    padding:10px 35px; 
+    border:none; 
+    color:white;
+}
+
 .getstarted{
     background-color:#ffffff;
     font-size:13px;
